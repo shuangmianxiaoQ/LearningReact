@@ -7,7 +7,9 @@ import React, { Component } from 'react';
 // import Clock from './demo02/单向数据流';
 // import Toggle from './demo03/事件处理';
 // import LoginContorl from './demo04/条件渲染';
-import Page from './demo04/阻止组件渲染';
+// import Page from './demo04/阻止组件渲染';
+// import NumberList from './demo05/列表';
+import Blog from './demo05/keys';
 
 // const comment = {
 //   date: new Date().toLocaleDateString(),
@@ -21,7 +23,7 @@ import Page from './demo04/阻止组件渲染';
 class App extends Component {
   render() {
     return (
-      <Page />
+      <Blog />
     )
   }
 }
