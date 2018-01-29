@@ -9,7 +9,9 @@ import React, { Component } from 'react';
 // import LoginContorl from './demo04/条件渲染';
 // import Page from './demo04/阻止组件渲染';
 // import NumberList from './demo05/列表';
-import Blog from './demo05/keys';
+// import Blog from './demo05/keys';
+// import FlavorForm from './demo06/受控组件';
+import Reservation from './demo06/表单';
 
 // const comment = {
 //   date: new Date().toLocaleDateString(),
@@ -23,7 +25,7 @@ import Blog from './demo05/keys';
 class App extends Component {
   render() {
     return (
-      <Blog />
+      <Reservation />
     )
   }
 }
