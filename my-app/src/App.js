@@ -11,7 +11,9 @@ import React, { Component } from 'react';
 // import NumberList from './demo05/列表';
 // import Blog from './demo05/keys';
 // import FlavorForm from './demo06/受控组件';
-import Reservation from './demo06/表单';
+// import Reservation from './demo06/表单';
+// import Calculator from './demo07/状态提升';
+import SignUpDialog from './demo08/组合';
 
 // const comment = {
 //   date: new Date().toLocaleDateString(),
@@ -25,7 +27,7 @@ import Reservation from './demo06/表单';
 class App extends Component {
   render() {
     return (
-      <Reservation />
+      <SignUpDialog />
     )
   }
 }
