@@ -19,6 +19,7 @@ class FancyBorder extends Component {
 class Dialog extends Component {
   constructor(props) {
     super(props);
+    console.log(this.props);
   }
   
   render() {
@@ -30,18 +31,41 @@ class Dialog extends Component {
         <p>
           {this.props.message}
         </p>
+        {this.props.children}
       </FancyBorder>
     );
   }
 }
 
 class SignUpDialog extends Component {
+  constructor(props) {
+    super(props);
+    this.state = {login: ''};
+  }
+  
+  handleChange = event => {
+    this.setState({
+      login: event.target.value
+    })
+  }
+
+  handleClick = () => {
+    console.log('Welcome aboard, ' + this.state.login);
+  }
+
   render() {
     return (
       <div>
         <Dialog
-          title="Welcome"
-          message="Thank you for visiting our spacecraft!" />
+          title="Mars Exploration Program"
+          message="How should we refer to you?">
+          <input
+            value={this.state.login}
+            onChange={this.handleChange} />
+          <button onClick={this.handleClick}>
+            Sign Me Up!
+          </button>
+        </Dialog>
       </div>
     );
   }

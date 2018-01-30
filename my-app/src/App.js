@@ -13,7 +13,8 @@ import React, { Component } from 'react';
 // import FlavorForm from './demo06/受控组件';
 // import Reservation from './demo06/表单';
 // import Calculator from './demo07/状态提升';
-import SignUpDialog from './demo08/组合';
+// import SignUpDialog from './demo08/组合';
+import FilterableProductTable from './demo09/React理念';
 
 // const comment = {
 //   date: new Date().toLocaleDateString(),
@@ -27,7 +28,7 @@ import SignUpDialog from './demo08/组合';
 class App extends Component {
   render() {
     return (
-      <SignUpDialog />
+      <FilterableProductTable />
     )
   }
 }
