@@ -14,7 +14,8 @@ import React, { Component } from 'react';
 // import Reservation from './demo06/表单';
 // import Calculator from './demo07/状态提升';
 // import SignUpDialog from './demo08/组合';
-import FilterableProductTable from './demo09/React理念';
+// import FilterableProductTable from './demo09/React理念';
+import ListOfTenThings from './demo10/深入JSX';
 
 // const comment = {
 //   date: new Date().toLocaleDateString(),
@@ -28,7 +29,7 @@ import FilterableProductTable from './demo09/React理念';
 class App extends Component {
   render() {
     return (
-      <FilterableProductTable />
+      <ListOfTenThings />
     )
   }
 }
