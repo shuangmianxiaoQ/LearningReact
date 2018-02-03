@@ -15,7 +15,9 @@ import React, { Component } from 'react';
 // import Calculator from './demo07/状态提升';
 // import SignUpDialog from './demo08/组合';
 // import FilterableProductTable from './demo09/React理念';
-import ListOfTenThings from './demo10/深入JSX';
+// import ListOfTenThings from './demo10/深入JSX';
+// import CustomTextInput from './demo11/Refs';
+import Parent from './demo11/Refs&DOM';
 
 // const comment = {
 //   date: new Date().toLocaleDateString(),
@@ -29,7 +31,7 @@ import ListOfTenThings from './demo10/深入JSX';
 class App extends Component {
   render() {
     return (
-      <ListOfTenThings />
+      <Parent />
     )
   }
 }
