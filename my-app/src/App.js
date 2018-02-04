@@ -17,7 +17,9 @@ import React, { Component } from 'react';
 // import FilterableProductTable from './demo09/React理念';
 // import ListOfTenThings from './demo10/深入JSX';
 // import CustomTextInput from './demo11/Refs';
-import Parent from './demo11/Refs&DOM';
+// import Parent from './demo11/Refs&DOM';
+// import CounterButton from './demo12/shouldComponentUpdate应用';
+import WordAdder from './demo12/不可突变的数据结构';
 
 // const comment = {
 //   date: new Date().toLocaleDateString(),
@@ -31,7 +33,7 @@ import Parent from './demo11/Refs&DOM';
 class App extends Component {
   render() {
     return (
-      <Parent />
+      <WordAdder />
     )
   }
 }
