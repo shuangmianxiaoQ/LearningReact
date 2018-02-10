@@ -19,7 +19,9 @@ import React, { Component } from 'react';
 // import CustomTextInput from './demo11/Refs';
 // import Parent from './demo11/Refs&DOM';
 // import CounterButton from './demo12/shouldComponentUpdate应用';
-import WordAdder from './demo12/不可突变的数据结构';
+// import WordAdder from './demo12/不可突变的数据结构';
+// import Container from './demo13/Portal用法';
+import Parent from './demo13/Portals事件冒泡';
 
 // const comment = {
 //   date: new Date().toLocaleDateString(),
@@ -33,7 +35,7 @@ import WordAdder from './demo12/不可突变的数据结构';
 class App extends Component {
   render() {
     return (
-      <WordAdder />
+      <Parent />
     )
   }
 }
